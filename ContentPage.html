@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<head>
+<style>
+
+html{
+  height: 100%;
+}
+
+canvas{
+	width: 100%;
+}
+body {
+	background: linear-gradient(to bottom, #ffffff 60%, #000000 100%);
+	margin: 0;
+	padding: 0;
+	background-attachment: fixed;
+}
+
+h1 {
+    
+	font-size: 4em;
+	color: #fff;
+	font-family: georgia;
+	font-weight: bold;
+	text-shadow: 0 1px 0 #ccc,0 1px 15px rgba(0,0,0,5),0 2px 0 #ccc,0 3px 0 #ccc,0 4px 0 #ccc,0 5px 0 #ccc,0 6px 0 #ccc,0 7px 0 #ccc,0 8px 0 #ccc,0 9px 0 #ccc,0 10px 0 #ccc,0 11px 0 #ccc,0 12px 0 #ccc,0 20px 30px rgba(0,0,0,3);
+}
+#container {
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+#logo {
+	font-color: white;
+}
+
+ .image{
+	background: url('city.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	right: 0;
+	z-index: -1;
+	filter:blur(5px);
+	-webkit-filter: blur(5px);
+	opacity: .3;
+	}
+	
+#con {
+	width:60%;
+	margin-left:20%;
+	padding-right:;
+	background: linear-gradient(to bottom, grey 20%, #000000 100%);;
+	box-shadow: 15px 45px 50px #29293d;
+	font-family: georgia;
+	font-size: 20px;
+	border-radius: 5px;
+	margin-bottom: 10%;
+}
+
+#con2 {
+	width:70%;
+	margin-left:15%;
+	padding-right:;
+	background: linear-gradient(to bottom, grey 20%, #000000 100%);;
+	box-shadow: 15px 45px 50px #29293d;
+	font-family: georgia;
+	font-size: 20px;
+	border-radius: 5px;
+	margin-bottom: 10%;
+	margin-top: 5%;
+}
+
+#box150 {
+	width:15%;
+	margin-left:1%;
+	background: linear-gradient(to bottom, black 30%, grey 100%);;
+	box-shadow: 15px 45px 50px #29293d;
+	font-family: georgia;
+	font-size: 20px;
+	border-radius: 5px;
+	display: inline-block;
+}
+
+#box300 {
+	width:15%;
+	margin-left:5%;
+	background: linear-gradient(to bottom, black 30%, grey 100%);;
+	box-shadow: 15px 45px 50px #29293d;
+	font-family: georgia;
+	font-size: 20px;
+	border-radius: 5px;
+	display: inline-block;
+}
+
+#box450 {
+	width:15%;
+	margin-left:5%;
+	background: linear-gradient(to bottom, black 30%, grey 100%);;
+	box-shadow: 15px 45px 50px #29293d;
+	font-family: georgia;
+	font-size: 20px;
+	border-radius: 5px;
+	display: inline-block;
+}
+
+#box600 {
+	width:15%;
+	margin-left:5%;
+	margin-bottom: 10%;
+	background: linear-gradient(to bottom, black 30%, grey 100%);;
+	box-shadow: 15px 45px 50px #29293d;
+	font-family: georgia;
+	font-size: 20px;
+	border-radius: 5px;
+	display: inline-block;
+}
+
+#boxCustom {
+	width:19%;
+	margin-left:2%;
+	background: linear-gradient(to bottom, black 30%, grey 100%);;
+	box-shadow: 15px 45px 50px #29293d;
+	font-family: georgia;
+	font-size: 20px;
+	border-radius: 5px;
+	display: inline-block;
+}
+
+#boxConsult {
+	width:19%;
+	margin-left:40%;
+	margin-bottom: 10%;
+	background: linear-gradient(to bottom, black 30%, grey 100%);;
+	box-shadow: 15px 45px 50px #29293d;
+	font-family: georgia;
+	font-size: 20px;
+	border-radius: 5px;
+	display: inline-block;
+}
+
+#BackToTop {
+	width:19%;
+	margin-left:40%;
+	margin-bottom: 10%;
+	background: linear-gradient(to bottom, black 30%, grey 100%);;
+	box-shadow: 15px 45px 50px #29293d;
+	font-family: georgia;
+	font-size: 20px;
+	border-radius: 5px;
+	display: inline-block;
+}
+</style>
+<style type="text/css">
+BODY {overflow-x: hidden;}
+</style>
+</head>
+<body>
+<script src="smoke.js"></script>
+<div class="image"></div>
+<table>
+<tr>
+<td width= "25%">
+<img id="home" src="timeflex.png"></img>
+</td>
+<td><div onclick="scrolltoAbout()">About Us</div>
+</td>
+<td><div onclick="ContactUs()">Contact Us</div>
+</td>
+</tr>
+</table>
+<div style="background-color:#000000; height:1px">.</div>
+<link href='//fonts.googleapis.com/css?family=Dosis:400,600' rel='stylesheet' type='text/css'>
+<div id="container">
+<div style="position: relative; text-align:center">
+      <p style="position: fixed; bottom: 0; width:100%"></p>
+</div>
+</div>
+<h1 align="center">Welcome To TimeFLEX Marketing</h1>
+<div id="con2"><h3 align="center" style="color:#ffffff"><em>Upon realization of how beneficial a large social media presence can be to your company, product, or website we decided to create a marketing company for advetisement on social media platforms. Here at TimeFLEX we utilize top tier marketing strategies to gain massive exposure for your business.  Being two millennials, we are experts with social media platforms; We know them inside and out.  Countless hours have been spent researching marketing tactics, and we have broken away from inefficient old methods to bring you real exposure.  We are marketing the future!</em></h3></div>
+<h1 align="center">SERVICES</h1>
+<br>
+<div id="con"><h3 align="center" style="color:#ffffff"><em>We have multiple plans available to accommodate the needs of customers.  The more expensive the plan is, the more ads we will create for your business and the more platforms we wil advertise on.  After you choose a plan, we will consult with you to figure out how you want your ads to look and which platforms will be ideal to advertise on. If you have any questions or want to create a custom plan, do not hesitate to email us at info@timeflexmarketing.com!</em></h3></div>
+<div onclick="scrollto150()" id="box150"><h2 style="color:white;" align="center">$150</h2></div>
+<div onclick="scrollto300()" id="box300"><h2 style="color:white;" align="center">$300</h2></div>
+<div onclick="scrollto450()" id="box450"><h2 style="color:white;" align="center">$450</h2></div>
+<div onclick="scrollto600()" id="box600"><h2 style="color:white;" align="center">$600</h2></div>
+<div onclick="scrolltoCustom()" id="boxCustom"><h2 style="color:white;" align="center">Custom</h2></div>
+<div id="Plan150"></div>
+<h1  align="center">$150 Plan</h1>
+<div id="con"><h2 align="center" style="color:#ffffff">Guarentees that your content will reach 2,500 new viewers.</h2></div>
+<div id="boxConsult"><h2 style="color:white;" align="center">Consult</h2></div>
+<div id="Plan300"></div>
+<h1 align="center">$300 Plan</h1>
+<div id="con"><h2 align="center" style="color:#ffffff">Guarentees that your content will reach 5,500 new viewers.</h2></div>
+<div id="boxConsult"><h2 style="color:white;" align="center">Consult</h2></div>
+<div id="Plan450"></div>
+<h1 align="center">$450 Plan</h1>
+<div id="con"><h2 align="center" style="color:#ffffff"><em>Guarentees that your content will reach 8,500 new viewers.</em></h2></div>
+<div id="boxConsult"><h2 style="color:white;" align="center">Consult</h2></div>
+<div id="Plan600"></div>
+<h1 align="center">$600 Plan</h1>
+<div id="con"><h2 align="center" style="color:#ffffff">Guarentees that your content will reach 11,000 new viewers.</h2></div>
+<div id="boxConsult"><h2 style="color:white;" align="center">Consult</h2></div>
+<div id="PlanCustom"></div>
+<h1 align="center">Custom Plan</h1>
+<div id="con"><h2 align="center" style="color:#ffffff">If none of the previous plans fit you, don't worry! We will create a custom plan for you. Contact Us! </h2></div>
+<div id="AboutUs"></div>
+<h1 align="center">About Us</h1>
+<div id="con"><h2 align="center" style="color:#ffffff">Here at TimeFLEX our mission is to get you as much of a
+social media prescense as possible.</h2></div>
+<div onclick="scrolltoTop()" id="BackToTop"><h2 style="color:white;" align="center">Back To Top</h2></div>
+<script>
+			var canvas = document.getElementById('canvas');
+			var ctx = canvas.getContext('2d');
+			canvas.width = innerWidth;
+			canvas.height = innerHeight;
+			
+			var party = smokemachine(ctx, [54, 16.8, 18.2]);
+			//~ var party = smokemachine(ctx, [226, 88, 34]);
+			party.start(); // start animating
+			
+			onmousemove = function (e) {
+				var x = e.clientX;
+				var y = e.clientY+50;
+				var n = 5;
+				var t = Math.floor(Math.random() * 200) + 1500;
+				party.addsmoke(x, y, n, t);
+			}
+			
+		</script>
+<script>
+function scrollto150 ()
+{
+	if(navigator.userAgent.match(/Chrome|AppleWebKit/)){
+		window.location.href = "#Plan150";
+		window.location.href = "#Plan150";
+		}
+		else {
+		window.location.hash = "Plan150"
+	}
+}
+</script>
+<script>
+function scrollto300 ()
+{
+	if(navigator.userAgent.match(/Chrome|AppleWebKit/)){
+		window.location.href = "#Plan300";
+		window.location.href = "#Plan300";
+		}
+		else {
+		window.location.hash = "Plan300"
+	}
+}
+</script>
+<script>
+function scrollto450 ()
+{
+	if(navigator.userAgent.match(/Chrome|AppleWebKit/)){
+		window.location.href = "#Plan450";
+		window.location.href = "#Plan450";
+		}
+		else {
+		window.location.hash = "Plan450"
+	}
+}
+</script>
+<script>
+function scrollto600 ()
+{
+	if(navigator.userAgent.match(/Chrome|AppleWebKit/)){
+		window.location.href = "#Plan600";
+		window.location.href = "#Plan600";
+		}
+		else {
+		window.location.hash = "Plan600"
+	}
+}
+</script>
+<script>
+function scrolltoCustom ()
+{
+	if(navigator.userAgent.match(/Chrome|AppleWebKit/)){
+		window.location.href = "#PlanCustom";
+		window.location.href = "#PlanCustom";
+		}
+		else {
+		window.location.hash = "PlanCustom"
+	}
+}
+</script>
+<script>
+function scrolltoTop ()
+{
+	if(navigator.userAgent.match(/Chrome|AppleWebKit/)){
+		window.location.href = "#home";
+		window.location.href = "#home";
+		}
+		else {
+		window.location.hash = "home"
+	}
+}
+</script>
+<script>
+function scrolltoAbout ()
+{
+	if(navigator.userAgent.match(/Chrome|AppleWebKit/)){
+		window.location.href = "#AboutUs";
+		window.location.href = "#AboutUs";
+		}
+		else {
+		window.location.hash = "AboutUs"
+	}
+}
+</script>
+<script>
+function ContactUs ()
+{
+	window.alert("Please email TimeFLEXMarketing@Gmail.com with any questions or concerns.");
+}
+</script>
+</body>
+</html>
