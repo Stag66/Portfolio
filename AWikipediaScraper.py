@@ -21,3 +21,5 @@ for num,result in enumerate(search_results):
     
 selected_item = int(console.input("Select the number of the article you would like to open: "))
 webbrowser.open(urls[selected_item])
+
+#
